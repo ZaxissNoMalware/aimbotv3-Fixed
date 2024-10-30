@@ -25,9 +25,9 @@ local GetService = select(2, pcall(__index, game, "GetService")) or game.GetServ
 --// Services
 
 local RunService = game:GetService("RunService")
-local UserInputService = GetService(game, "UserInputService")
-local TweenService = GetService(game, "TweenService")
-local Players = GetService(game, "Players")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local Players = game:GetService("Players")
 
 --// Degrade "__index" and "__newindex" functions if the executor doesn't support "getrawmetatable" properly.
 

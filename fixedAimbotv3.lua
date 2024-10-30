@@ -24,7 +24,7 @@ local GetService = select(2, pcall(__index, game, "GetService")) or game.GetServ
 
 --// Services
 
-local RunService = GetService(game, "RunService")
+local RunService = game:GetService("RunService")
 local UserInputService = GetService(game, "UserInputService")
 local TweenService = GetService(game, "TweenService")
 local Players = GetService(game, "Players")
